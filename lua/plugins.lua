@@ -13,12 +13,13 @@ vim.pack.add({
     gh("nvim-telescope/telescope-fzf-native.nvim"),
     gh("vague2k/vague.nvim"),
     gh("mason-org/mason.nvim"),
-    gh("neovim/nvim-lspconfig")
+    gh("neovim/nvim-lspconfig"),
+    gh("nvim-tree/nvim-tree.lua")
 })
 
 require("mason").setup({})
 require("ibl").setup({})
-
+require("nvim-tree").setup({})
 
 -- TODO: Make separators between sections rectangular
 require("lualine").setup({

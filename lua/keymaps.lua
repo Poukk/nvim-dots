@@ -1,7 +1,7 @@
 local map = vim.keymap.set
 
 map("n", "<Esc>", "<cmd>nohlsearch<CR>", { noremap = true, silent = true, desc = "[Esc] Clear highlights" })
--- map("n", "<Leader>e", "<cmd>Neotree focus<CR>", { noremap = true, silent = true, desc = "Toggle Neotree" })
+map("n", "<Leader>e", "<cmd>NvimTreeFocus<CR>", { noremap = true, silent = true, desc = "Toggle Neotree" })
 
 -- LSP
 map("n", "<leader>rn", vim.lsp.buf.rename,      { desc = "LSP: [R]e[n]ame"})
