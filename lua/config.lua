@@ -9,6 +9,7 @@ g.maplocalleader  = " "
 opt.swapfile      = false
 opt.number        = true
 opt.list          = true
+opt.wrap          = false
 opt.breakindent   = true
 opt.termguicolors = true
 opt.ignorecase    = true
@@ -21,5 +22,4 @@ opt.shiftwidth    = 4
 opt.softtabstop   = 4
 
 cmd.colorscheme "vague"
-
 
