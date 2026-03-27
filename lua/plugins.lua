@@ -11,7 +11,7 @@ vim.pack.add({
     gh("nvim-lualine/lualine.nvim"),
     gh("nvim-telescope/telescope.nvim"),
     gh("nvim-telescope/telescope-fzf-native.nvim"),
-    gh("vague2k/vague.nvim"),
+    gh("vague-theme/vague.nvim"),
     gh("mason-org/mason.nvim"),
     gh("neovim/nvim-lspconfig"),
     gh("nvim-tree/nvim-tree.lua")
